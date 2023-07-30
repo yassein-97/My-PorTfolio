@@ -197,12 +197,22 @@ strong,span{
       display: block;
   }
   #profile{
-      width: 90%;
-  }
-  .card{
-      margin: 0 5%;
-      margin-bottom: 30px;
-  }
+    width: 70%;
+}
+.card{
+    width: 70%;
+    margin: 0 1.5%;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.tags{
+  font-size: 14px;
+  
+}
+ul{
+  padding-left: 5px;
+}
 }
 
 @media screen and (max-width:480px){
