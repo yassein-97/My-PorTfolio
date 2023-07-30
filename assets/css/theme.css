@@ -204,6 +204,20 @@ strong,span{
       margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width:480px){
+  #container{
+      display: block;
+  }
+  #profile{
+      width: 90%;
+  }
+  .card{
+      width: 95%;
+      margin: 0 2.5%;
+      margin-bottom: 15px;
+  }
+}
 /*test*/
 
 
