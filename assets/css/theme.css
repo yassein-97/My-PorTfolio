@@ -4,7 +4,14 @@
  */
 
 /*test*/
-
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+img.img-thumbnail {
+  border-radius: 50%;
+  transform: rotate(13deg);
+  border: none;
+}
 html{
   font-family: 'Open Sans',sans-serif;
   background: whitesmoke;
@@ -21,7 +28,7 @@ hr{
   display: flex;
 }
 #profile{
-  flex: 15%;
+  /* flex: 30%; */
   display: block;
   position: relative;
   margin: 5% 2% 0 10%;
@@ -45,6 +52,7 @@ hr{
   width: 150px;
   height: 150px;
   border-radius: 10px;
+  transform: rotate(4deg);
 }
 #image > a{
   position: absolute;
@@ -64,7 +72,7 @@ hr{
 }
 #name{
   font-size: 23px !important;
-  line-height: 20px !important;
+  line-height: 25px !important;
   margin-top: 20px;
 }
 #about,.card > ul > li{
@@ -144,7 +152,7 @@ strong,span{
   margin-bottom: 30px;
   padding: 15px 30px 30px 30px;
   background-color: #fff;
-  width: 700px;
+  /* width: 700px; */
   
 }
 .card > p{
@@ -200,7 +208,7 @@ strong,span{
     width: 70%;
 }
 .card{
-    width: 70%;
+    /* width: 70%; */
     margin: 0 1.5%;
     margin-bottom: 15px;
     font-size: 15px;
@@ -223,7 +231,7 @@ ul{
       width: 90%;
   }
   .card{
-      width: 95%;
+      /* width: 95%; */
       margin: 0 2.5%;
       margin-bottom: 15px;
       font-size: 15px;
@@ -267,7 +275,6 @@ a {
 
 a:hover {
   color: #5641df;
-  text-decoration: underline;
 }
 
 
@@ -1242,7 +1249,9 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(255, 255, 255, 0.8);
 }
 
-
+.navbar-collapse {
+  flex-grow: 0;
+}
 .navbar {
   min-height: 70px;
 }
@@ -1736,7 +1745,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   margin: 16px auto;
   padding: 32px 20px;
-  max-width: 300px;
+  /* max-width: 300px; */
   text-align: center;
   color: #898798;
   border-radius: 8px;
@@ -1934,7 +1943,7 @@ a.text-dark:hover, a.text-dark:focus {
 .card-blog {
   display: block;
   margin: 0 auto;
-  max-width: 280px;
+  /* max-width: 280px; */
   border-radius: 4px;
   box-shadow: 0 2px 6px rgba(100, 95, 136, 0.16);
   overflow: hidden;
